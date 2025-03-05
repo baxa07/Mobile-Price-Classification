@@ -38,7 +38,8 @@ The dataset file containing mobile phone specifications and their corresponding 
 # Installation
 
 Clone the repository:
-git clone https://github.com/baha07/mobile-price-classification.git
+git clone https://github.com/baxa07/Mobile-Price-Classification
+
 cd mobile-price-classification
 
 Results
