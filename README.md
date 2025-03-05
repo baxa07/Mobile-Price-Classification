@@ -13,12 +13,12 @@ Analyzing the dataset to understand its distribution, summary statistics, and fe
 Identifying important features using techniques such as feature importance ranking and Principal Component Analysis (PCA). The most significant features selected include ram, battery_power, px_height, and px_width. This is implemented in feature_engineering.py.
 ## Model Training and Hyperparameter Tuning:
 Training a classification model using a combination of clustering (GMM) and decision tree-based methods, along with an extensive grid search for hyperparameter tuning. The best model parameters found were:
-max_depth: 15
-max_features: log2
-min_samples_leaf: 2
-min_samples_split: 5
+- max_depth: 15
+- max_features: log2
+- min_samples_leaf: 2
+- min_samples_split: 5
 The training and testing accuracies achieved are approximately 99.25% and 91.50%, respectively. This step is handled in model_training.py.
-Pipeline Integration:
+## Pipeline Integration:
 The main.py script ties all the steps together, providing a smooth workflow from data preprocessing to final evaluation.
 File Structure
 
